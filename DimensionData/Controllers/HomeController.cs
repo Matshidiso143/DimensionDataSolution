@@ -28,6 +28,22 @@ namespace DimensionData.Controllers
             return View();
         }
 
+        public IActionResult Data()
+        {
+            return View();
+        }
+
+        public IActionResult Roles()
+        {
+            return View();
+        }
+
+        public IActionResult DataAnalytics()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
